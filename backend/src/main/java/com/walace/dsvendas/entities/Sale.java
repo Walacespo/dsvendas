@@ -83,6 +83,10 @@ public class Sale {
 	public int hashCode() {
 		return Objects.hash(id);
 	}
+	
+	public Seller getSeller() {
+		return seller;
+	}
 
 	@Override
 	public boolean equals(Object obj) {
